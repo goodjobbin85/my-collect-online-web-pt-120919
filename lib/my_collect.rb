@@ -4,6 +4,7 @@ def my_collect(set)
   while i < set.size 
     modified_collection << yield set[i] 
     i += 1 
-  end
+  end 
+  modified_collection
 end
 
